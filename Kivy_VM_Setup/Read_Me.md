@@ -29,8 +29,10 @@ xrandr --addmode Virtual1 1680x1050_60.00
 If link outdated:
 sudo apt update 
 sudo apt install python3-pip
+```
 8) Kivy requires a number of dependencies, use this site to get them: 
 https://kivy.org/doc/stable/installation/installation-linux-venvs.html
+```
 To install, simply type: sudo apt-get (dependency)
 I.E.
 sudo apt-get build-essential
