@@ -10,7 +10,7 @@ This is just a resource page (thus, sites posted may be outdated).
 You may use https://brb.nci.nih.gov/seqtools/installUbuntu.html for setting up Ubuntu details
 3) Open VirtualBox, and choose the setup you desire (For Ubuntu, you can pick Linux and Ubuntu-x64) and pick the IOS you just downloaded
 4) Most of the options you can pick the default, however I found I required at least 20+ GB to be able to download all the depencies, the IDE, etc.
-5) Make sure when you've set everything up, when you shut down to go to the settings of your VM, in System make sure to turn off Optical (otherwise the next time you boot it will try and setup again)
+5) Make sure when you've set everything up, and you've shut down your VM. Go to the settings of your VM, in System make sure to turn off Optical (otherwise the next time you boot it will try and setup again)
 6) The first thing you might want to do is change your screen resolution (I can't work with a tiny screen).
 Follow the answers in this link to get the resolution you wish: https://askubuntu.com/questions/377937/how-do-i-set-a-custom-resolution
 ```
