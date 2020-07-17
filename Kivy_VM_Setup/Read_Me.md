@@ -15,11 +15,11 @@ You may use https://brb.nci.nih.gov/seqtools/installUbuntu.html for setting up U
 Follow the answers in this link to get the resolution you wish: https://askubuntu.com/questions/377937/how-do-i-set-a-custom-resolution
 ```
 If link problem, type: cvt width height refreshrate 
-Then go to text editor:
+Then go to text editor and save file as ~/.xprofile:
 #!/bin/sh
 xrandr --newmode (cvt output)
 xrandr --addmode Virtual1 ("cvtoutput")
-I.E.
+I.E. 
 #!/bin/sh
 xrandr --newmode "1680x1050_60.00"  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync  
 xrandr --addmode Virtual1 1680x1050_60.00
